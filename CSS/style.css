@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+      
+}
+
+body{
+    background-color: #c3ecc5;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/vegitables.jpg);
+    background-size: cover;
+   
+}
+/* .nav-div{
+    display: flex;
+    justify-content: center;
+} */
+
+.vig{
+    margin-top: 200px;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+    width: 400px;
+  
+}
+.vig h1{
+    margin-bottom: 50px;
+    margin-left: 20px;
+      color: #1b5f21;
+}
+
+.vig p{
+    font-size: 20px;
+      color: #041a06;
+}
+
+nav{
+    display: flex;
+    justify-content: last baseline;
+    margin: 20px;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+nav div ul li{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 20px;
+     transition: 0.4 ease;
+}
+
+nav div ul li a{
+     text-decoration: none;
+     color: #1b5f21;
+     
+   
+}
+
+nav div ul li:hover{
+    transform: scale(1.1);
+}
+nav div a i {
+      color: #1b5f21;
+        margin-top: 30px;
+        /* height: 10px;
+        width: 10px; */
+       transition: 0.4 ease;
+}
+
+nav div a i:hover{
+     transform: scale(1.1);
+}
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-left: 30px;
+    /* background-color: #307435; */
+}
+
+.pro{
+    border: 2px solid #1b5f21;
+    margin: 30px;
+    border-radius: 20px;
+    height: 550px;
+    transition: 0.4s ease;
+}
+.pro:hover{
+    transform: scale(1.1);
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #1b5f21;
+    margin-left: 50px;
+    margin-top: 40px;
+     border-radius: 10px;
+}
+.para{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+ 
+.cart i{
+    color: #1b5f21;
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+}
+
